@@ -15,7 +15,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com/Mujeeburrehman4596/Rock-Paper-Scissors.git
 Open the index.html file in your browser.
 Usage
 Simply open the website in your browser, and you're ready to play.
