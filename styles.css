@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.choice img {
+    width: 80px;
+    height: 80px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#outcome {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.alert {
+    display: none;
+}
+
+.alert-success {
+    display: block;
+    color: #28a745;
+}
+
+.alert-danger {
+    display: block;
+    color: #dc3545;
+}
+
+.alert-warning {
+    display: block;
+    color: #ffc107;
+}

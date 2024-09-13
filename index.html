@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Rock-Paper-Scissors</h1>
+        <h3>Choose!</h3>
+        <div class="d-flex justify-content-center my-4">
+            <button class="btn choice" data-choice="rock">
+                <img src="images1.jpeg" alt="Rock">
+            </button>
+            <button class="btn choice mx-3" data-choice="paper">
+                <img src="https://img.icons8.com/emoji/96/000000/page-facing-up.png" alt="Paper">
+            </button>
+            <button class="btn choice" data-choice="scissors">
+                <img src="images2.jpeg" alt="Scissors">
+            </button>
+        </div>
+        <div id="result">
+            <p>PLAYER: <span id="player-choice"></span></p>
+            <p>COMPUTER: <span id="computer-choice"></span></p>
+            <p id="outcome" class="alert"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
